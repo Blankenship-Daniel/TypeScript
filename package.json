@@ -1,0 +1,19 @@
+{
+  "name": "typescript-tutorial",
+  "version": "1.0.0",
+  "description": "learning typescript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blankenship-Daniel/TypeScript.git"
+  },
+  "author": "Daniel Blankenship",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blankenship-Daniel/TypeScript/issues"
+  },
+  "homepage": "https://github.com/Blankenship-Daniel/TypeScript#readme"
+}
