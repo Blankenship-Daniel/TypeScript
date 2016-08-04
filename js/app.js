@@ -1,3 +1,5 @@
+"use strict";
+var export_1 = require("./export");
 var Point = (function () {
     function Point(x, y) {
         this.x = x;
@@ -23,3 +25,4 @@ pointArray.push(p4);
 for (var i = 0; i < pointArray.length; i++) {
     console.log(pointArray[i].toString());
 }
+console.log(export_1.sayHello("TypeScript"));

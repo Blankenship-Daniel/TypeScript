@@ -1,12 +1,24 @@
+import { sayHello } from "./export";
+
 class Point {
   private x: number;
   private y: number;
 
+  /**
+   * Builds a Point object with an x and y coordinate.
+   * @param  {number} x an x coordinate
+   * @param  {number} y a  y coordinate
+   */
   constructor(x: number, y: number) {
     this.x = x;
     this.y = y;
   }
 
+  /**
+   * Adds two Point objects together.
+   * @param  {Point} point
+   * @return {Point}
+   */
   add(point: Point) : Point {
     return new Point(
       this.x + point.x,
@@ -14,6 +26,10 @@ class Point {
     );
   }
 
+  /**
+   * Prints a string representation of the Point class.
+   * @return {string}
+   */
   toString() : string {
     return this.x + " " + this.y;
   }
@@ -34,3 +50,5 @@ pointArray.push(p4);
 for (let i: number = 0; i < pointArray.length; i++) {
   console.log(pointArray[i].toString());
 }
+
+console.log(sayHello("TypeScript"));
